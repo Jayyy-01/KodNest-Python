@@ -1,2 +1,1 @@
-print("Hello World")
-print("Welcome to KodNest future Developers")
+print("This is my second commit")
