@@ -1,1 +1,2 @@
-print("day 1")
+print("Hello, Jayasree !")
+print("This is my seventh commit")
