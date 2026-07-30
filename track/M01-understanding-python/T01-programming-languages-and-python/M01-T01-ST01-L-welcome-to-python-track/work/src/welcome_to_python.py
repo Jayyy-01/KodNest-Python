@@ -1,1 +1,1 @@
-print("Hello KodNest")
+print("day 1")
