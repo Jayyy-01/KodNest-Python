@@ -1,1 +1,2 @@
-#write you code here
+print("Hello World")
+print("Welcome to KodNest future Developers")
