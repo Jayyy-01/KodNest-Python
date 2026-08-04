@@ -1,3 +1,4 @@
+#Read and convert the values
 student_name = input()
 student_age = int(input())
 course_rating = float(input())
