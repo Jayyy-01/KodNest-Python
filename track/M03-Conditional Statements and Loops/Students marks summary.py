@@ -19,3 +19,6 @@ if failed_count == 0:
     print("Batch Result: All Passed")
 else:
     print("Batch Result: Needs Improvement")
+
+#summary: using if-else we are able to give the batch result based on the number of passed and failed students
+#using for loop we are able to iterate through the list of students and calculate the total marks, passed count, failed count

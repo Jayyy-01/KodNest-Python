@@ -10,8 +10,8 @@ skill_record = tuple(skills)
 #create required slicing
 
 first_three = skills[0:3]
-last_two = skills[3:5]
-alternative = skills[0:5:2]
+last_two = skills[3:5]            #or [-2: ]
+alternative = skills[0:5:2]       #or [::2]
 reversed = skills[::-1]
 
 print(f"Skill Record: {skill_record}")
@@ -20,4 +20,4 @@ print(f"Last two Skills: {last_two}")
 print(f"Alternate Skills: {alternative}")
 print(f"Reversed Skills: {reversed}")
 
-#Summary: we used slicing concept in tuples to create required slicing
+#summary: we used slicing concept in tuples to create required slicing
