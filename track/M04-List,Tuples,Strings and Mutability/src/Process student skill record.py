@@ -5,7 +5,7 @@ for i in range(5):
     skills.append(input()) #as it is string so we are using input()
 
 #convert into tuple
-skills = tuple(skills)
+skill_record = tuple(skills)
 
 #create required slicing
 
@@ -14,7 +14,7 @@ last_two = skills[3:5]
 alternative = skills[0:5:2]
 reversed = skills[::-1]
 
-print(f"Skill Record: {skills}")
+print(f"Skill Record: {skill_record}")
 print(f"First three Skills: {first_three}")
 print(f"Last two Skills: {last_two}")
 print(f"Alternate Skills: {alternative}")
