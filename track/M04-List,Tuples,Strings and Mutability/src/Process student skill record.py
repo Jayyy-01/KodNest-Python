@@ -2,7 +2,7 @@ skills = []
 
 #read and store 5 skills
 for i in range(5):
-    skills.append(input())      #as it is string so we are using input()
+    skills.append(input()) #as it is string so we are using input()
 
 #convert into tuple
 skills = tuple(skills)
