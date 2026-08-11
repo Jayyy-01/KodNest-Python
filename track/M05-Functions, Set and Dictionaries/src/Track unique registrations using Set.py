@@ -31,4 +31,4 @@ print(f"Duplicate count: {duplicate_count}")
 
 #summary: registrations is a set() -> entering "ki1" twice, the second one just gets silently dropped, so the loop never even sees the duplicate.
 #before counting duplicates, the duplicates are removed from the set, so duplicate count will show wrong
-# Result: no error shown, code runs fine, but duplicate_count comes out wrong here.
+#No problem with the code here, code runs fine, but duplicate_count comes out wrong here.
