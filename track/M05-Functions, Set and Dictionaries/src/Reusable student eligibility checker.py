@@ -12,3 +12,8 @@ project_completed = input().strip()
 #check eligibility and print
 result = student_eligibility(marks, attendance, project_completed)
 print(result)
+
+
+#summary: define a function for eligibility check and call it in main
+#this promotes code reusability, readability, and ease of maintenance
+#it also makes it easier to test the eligibility logic independently
