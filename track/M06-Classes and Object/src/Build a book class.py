@@ -4,8 +4,8 @@ class Book:
         self.author = author
         self.price = price
 
-title = input()
-author = input()
+title = input().strip()
+author = input().strip()
 price = int(input())
 
 book = Book(title, author, price)
