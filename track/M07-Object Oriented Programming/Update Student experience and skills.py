@@ -18,11 +18,12 @@ new_skill = input().strip()
 
 #create one StudentProfile object
 s = StudentProfile(name,experience,skills)
-#update the studen's experience
+#update the student's experience using update_experience() method
 s.update_experience(new_experince) 
-#update the student's skill
+#update the student's skill using add_skill() method
 s.add_skill(new_skill)
 
+#print the updated student details
 print(f"Student Name: {s.name}")
 print(f"Updated Experience: {s.experience}")
 print(f"Updated Skills: {', '.join(s.skills)}")
