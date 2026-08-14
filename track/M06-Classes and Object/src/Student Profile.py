@@ -15,7 +15,7 @@ class StudentProfile:
             f"Course : {self.course}\n"
             f"Score : {self.score}\n"
             f"Skills : {skills_text}\n"
-            f"Placement Status : {status_text}\n"
+            f"Placement Status : {status_text}\n" 
         )
 student = StudentProfile(101, "Jayasree", "Python", 99.9, ["Python", "Frontend", "Backend"], True)
 print(student)
