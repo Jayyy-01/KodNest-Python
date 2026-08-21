@@ -33,4 +33,3 @@ print(s1.name)           #it is accessing the updated name value
 #here we are accessing and updating private variables using direct attributes rather than calling methods
 #using this we can make data private and can access and update through direct attributes
 #in this case it is same as using getter and setter methods but it is in the form of decorators
-#
