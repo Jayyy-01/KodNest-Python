@@ -10,10 +10,10 @@ class Student:
     @property
     def name(self):
         return self.__name 
-
+    
 s1 = Student(12,"jay") 
 print(s1.roll)
-print(s1.name) 
+print(s1.name)
 
 
 #here we are accessing data of roll and name using direct attributes(through @property, which is same syntax as getter)

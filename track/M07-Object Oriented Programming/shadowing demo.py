@@ -6,4 +6,4 @@ class StudentProfile:
         self.profile_count += 1   # BUG: this shadows, doesn't update the class var!
 
 
-#solution: change the 7th line as StudentProfile.profile_count += 1
+#solution: change the 7th line as StudentProfile.profile_count += 1    

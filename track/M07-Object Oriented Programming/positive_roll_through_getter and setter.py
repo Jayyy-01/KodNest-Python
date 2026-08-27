@@ -30,5 +30,5 @@ print(s1.getName())       #accessing through getter method
 
 
 #summary is we can access private variables through getter and update the values through setter method
-#using getter and setter we can make data private
+#using getter and setter we can access and update private data
 #when we make a variable private, we cannot access directly through attributes, though we give __ (eg: print(s1.__name)), it raises error
