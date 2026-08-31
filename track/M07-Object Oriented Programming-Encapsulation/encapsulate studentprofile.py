@@ -88,3 +88,10 @@ student.add_skill(new_skill)
 
 # Print the final object
 print(student)
+
+#Summary : here created class studentprofile and _init_ and @property and @name.setter and @score.setter and @skills.setter and add_skill and __str__ method and i used it to create one object and display the object using print(student)
+# and also used it to add skill and update score through property
+# i used @property to get and set the score and name and skills
+# i used @name.setter to set the name
+# i used @score.setter to set the score
+# i used @skills.setter to set the skills
