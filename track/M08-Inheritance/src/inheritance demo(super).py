@@ -3,7 +3,7 @@ class Parent:
         self.name = name
         print("inside parent class")
     
-class Child(Parent):
+class Child(Parent): 
     def __init__(self,name,course):      #it will call parent class constructor using super() method and it is taking name as an argument from child class to the parent class constructor
         super().__init__(name)      #it will call parent class constructor using super() method and it is taking name as an argument from child class to the parent class constructor
         self.course = course
