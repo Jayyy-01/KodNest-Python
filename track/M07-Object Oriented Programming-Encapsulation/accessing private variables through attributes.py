@@ -10,7 +10,7 @@ class Student:
     @property
     def name(self):
         return self.__name 
-    
+
 s1 = Student(12,"jay") 
 print(s1.roll)
 print(s1.name)
