@@ -11,7 +11,7 @@ class StudentReport(ReportGenerator):
         print("Generating student report for {self.name}")
 
 name = input()
-report = StudentReport(name)
-report.generate_report()
+report = StudentReport(name)        #creating object
+report.generate_report()            #calling the generate_report method for each object
 
 #summary : here i created abstract class ReportGenerator and i used it to create one object and display the object using print(report.generate_report())
