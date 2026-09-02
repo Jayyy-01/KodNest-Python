@@ -1,3 +1,7 @@
 ABSTRACT METHODS:
 Complete method or concrete method – body will be present
 Incomplete method or abstract method - body will not be present, and will use @abstractmethod and will import abstract method from ABC(abstraction base class)
+
+
+- we cannot create object for abstract class
+- if we need to create then we need to make it as Complete method
