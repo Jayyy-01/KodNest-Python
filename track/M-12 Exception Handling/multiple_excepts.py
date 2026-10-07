@@ -1,7 +1,7 @@
 try:
-    num1 = 10
-    num2 = 0
-    res = num1 // num2
+    # num1 = 10
+    # num2 = 0
+    # res = num1 // num2
 
     lst = [1,2,3]
     print(lst[5])

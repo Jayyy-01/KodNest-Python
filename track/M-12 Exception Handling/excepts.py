@@ -10,8 +10,8 @@ except Exception as e:
 try:
     matched_skills = 4
     required_skills = 0
-    match_score = matched_skills / required_skills
-    print(match_score)
+    # match_score = matched_skills / required_skills
+    # print(match_score)
 except ZeroDivisionError:
     print("division error")
 
@@ -32,7 +32,7 @@ print(total)
 
 #NameError
 student_name = "Asha"
-print(student_age)
+# print(student_age)
 
 #AttributeError
 student = {"name" : "asha"}
