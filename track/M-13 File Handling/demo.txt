@@ -1,0 +1,3 @@
+I am learning Python
+Python is high level programming language
+Python has simple syntax
