@@ -5,3 +5,7 @@ with open("demo.txt","r") as file:
     # print(file.readline())  #reads third line
     print(file.readlines()) #reads all lines as list of strings
     # file.close()  
+
+
+    #with statemnet automatically closes the file,
+    #we dont need to close it explicitly, no need of file.close() 
