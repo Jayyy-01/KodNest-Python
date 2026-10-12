@@ -1,3 +1,5 @@
 this file has been written using python
 Python is high level programming language
 Python has simple syntax
+Python is easy to learn
+Thankyou !!!
