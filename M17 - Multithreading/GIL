@@ -1,0 +1,3 @@
+GIL refers to Python’s Global Interpreter in CPython, which is a lock mutex i.e, mutual exclusion.
+It allows only one thread to execute Python bytecode at a time within a single process.
+This simplifies memory management but limits CPU-bound multithreading.
