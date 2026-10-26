@@ -8,19 +8,22 @@ class Numbers(Thread):      #creating a thread by passing Thread as parameter to
             time.sleep(1)  # Pause for 1 second
 
 class Alphabets(Thread):    #creating a thread by passing Thread as parameter to class
-    def run():
+    def run(self):
         for letter in ['A', 'B', 'C', 'D', 'E']:
             print(f"Letter: {letter}")
             time.sleep(1)  # Pause for 1 second
 
 
 # Start threads
-Numbers().start()
-Alphabets().start()
+thread1 = Numbers()
+thread2 = Alphabets()
+
+thread1.start()
+thread2.start()
 
 # Wait for threads to complete
-Numbers.join()      #joins the thread, means it will wait for the thread to complete and then it will run the next line
-Alphabets.join()    #joins the thread, means it will wait for the thread to complete and then it will run the next line
+thread1.join()
+thread2.join()
 
 print("All tasks are completed!")
 
