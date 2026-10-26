@@ -1,4 +1,4 @@
-from threading import Thread 
+from threading import Thread,current_thread
 import time
 
 class Numbers(Thread):      #creating a thread by passing Thread as parameter to class
